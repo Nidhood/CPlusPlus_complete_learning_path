@@ -48,9 +48,22 @@ int main() {
     std::cout << "The initial string is: '" << string4 << "'" << std::endl;
 
     // Now we are going to insert the string "inserted" in the string, in the index 1.
-    auto last = end(string4) - 1 ;
+    auto last = end(string4) - 1;
     string4.insert(last, 'l');
     std::cout << "The string is now: '" << string4 << "'" << std::endl;
+
+    // We need to be careful with the iterators, becouse we can get iterator invalidation.
+    std::string string5{"orld"};
+    std::cout << "The initial string is: '" << string5 << "'" << std::endl;
+
+    // Now we are going to insert the string "inserted" in the string, in the index 1.
+    auto first = begin(string5);
+    string5.insert(end(string5), 16, 'd');
+
+    // Now for not getting iterator invalidation, we need to update the iterator.
+    first = begin(string5);
+    string5.insert(first, 'w');
+    std::cout << "The string is now: '" << string5 << "'" << std::endl;
 
     return 0;
 }
