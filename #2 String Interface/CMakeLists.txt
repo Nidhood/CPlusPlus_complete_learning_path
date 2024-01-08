@@ -18,3 +18,12 @@ add_executable(AddingElementsToStrings "#3_Adding_Elements_to_Strings.cpp")
 
 # Add the executable "RemovingElementsToStrings" to the project.
 add_executable(RemovingElementsToStrings "#4_Removing_Elements_from_Strings.cpp")
+
+# Add the executable "ConvertingBetweenStringsAndNumbers" to the project.
+add_executable(ConvertingBetweenStringsAndNumbers "#5_Converting_Between_Strings_and_Numbers.cpp")
+
+# Add the executable "MiscellaneousStringOperations" to the project.
+add_executable(MiscellaneousStringOperations "#6_Miscellaneous_String_Operations.cpp")
+
+# Add the executable "CharacterFunctions" to the project.
+add_executable(CharacterFunctions "#7_Character_Functions.cpp")

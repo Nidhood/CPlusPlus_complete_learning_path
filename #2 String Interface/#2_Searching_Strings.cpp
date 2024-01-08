@@ -11,7 +11,6 @@
 
 int main() {
 
-    // Always we firstly declare variables.
     std::string str{"I'm going to be the best roboticist in the world!"}; // This is the string.
     size_t pos; // This is the type of the return of the find() function.
 
