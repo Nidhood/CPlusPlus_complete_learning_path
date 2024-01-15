@@ -30,7 +30,7 @@
 int main() {
     
     // Example of stream for reading a file constructor:
-    std::string str{"text.txt"};
+    std::string str{"text_in.txt"};
     std::ifstream read_file(str);
 
     if (read_file) {

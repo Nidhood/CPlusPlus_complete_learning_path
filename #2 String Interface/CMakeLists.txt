@@ -14,7 +14,8 @@ add_executable(BasicStringOperations "#1_Basic_String_Operations.cpp")
 add_executable(SearchingStrings "#2_Searching_Strings.cpp")
 
 # Add the executable "AddingElementsToStrings" to the project.
-add_executable(AddingElementsToStrings "#3_Adding_Elements_to_Strings.cpp")
+add_executable(AddingElementsToStrings "#3_Adding_Elements_to_Strings.cpp"
+        "../#3 Files and Streams/#1_File_Streams.cpp")
 
 # Add the executable "RemovingElementsToStrings" to the project.
 add_executable(RemovingElementsToStrings "#4_Removing_Elements_from_Strings.cpp")
