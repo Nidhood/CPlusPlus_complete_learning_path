@@ -32,6 +32,7 @@ int main() {
     // Create the object of the class Gauss:
     gauss_analysis::Gauss gauss(matrix, independent_vector);
 
+
     // Print the equation's system:
     gauss.print_equations_system();
     try {
